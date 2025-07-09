@@ -1,48 +1,66 @@
 
 body {
-  font-family: 'Arial', sans-serif;
   margin: 0;
-  padding: 0;
-  background: #f0f9f4;
-  color: #1a3e2e;
-}
-
-header {
+  font-family: 'Arial', sans-serif;
+  background: #edf8f4;
+  color: #183d2c;
   text-align: center;
-  padding: 10px;
-  background-color: #d4edda;
 }
 
-.banner {
+.hero-section img {
   width: 100%;
-  max-height: 180px;
-  object-fit: cover;
+  height: auto;
+}
+
+.container {
+  padding: 15px;
+}
+
+h1 {
+  margin-top: 10px;
+  color: #1e5631;
+}
+
+.subtext {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #385b4e;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  background: #c2e5d3;
+  border-radius: 12px;
+  padding: 12px 0;
+  font-size: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.icon span {
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.info {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.news-boxes {
+  display: grid;
   gap: 10px;
-  padding: 15px;
 }
 
-.card {
-  background-color: #a8ddb5;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  color: #1a3e2e;
+.news-card {
+  background-color: #d4edda;
+  padding: 12px;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.card:hover {
-  background-color: #8bcda2;
-}
-
-.info-box {
-  padding: 15px;
-  background-color: #ffffff;
-  margin: 10px;
-  border-radius: 8px;
+  font-size: 14px;
 }
